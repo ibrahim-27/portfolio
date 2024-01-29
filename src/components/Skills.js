@@ -1,6 +1,7 @@
 import React from 'react'
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaSquareGit } from "react-icons/fa6";
-import { BiLogoTailwindCss, BiLogoFirebase } from "react-icons/bi";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaSquareGit, FaNode } from "react-icons/fa6";
+import { BiLogoTailwindCss, BiLogoFirebase, BiLogoMongodb } from "react-icons/bi";
+import { SiExpress } from "react-icons/si";
 
 export default function Skills() {
   return (
@@ -16,7 +17,9 @@ export default function Skills() {
         <li className='text-skyBlue'><FaReact/></li>
         <li className='text-red-500'><FaSquareGit/></li>
         <li className='text-skyBlue'><BiLogoTailwindCss/></li>
+        <li className='text-green-500'><FaNode /></li>
         <li className='text-yellow-500'><BiLogoFirebase/></li>
+        <li className='text-green-500'><BiLogoMongodb /></li>
       </ul>
     </div>
   )
