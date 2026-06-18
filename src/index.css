@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+}
+
+/* Custom Base Styling */
+html, body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--text-primary);
+  scroll-behavior: smooth;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
+}
+
+/* Accent Colors for Theme Selector */
+:root {
+  --accent-dark-green: hsl(142, 76%, 36%);
+  --accent-blue: hsl(217, 91%, 60%);
+  --accent-purple: hsl(271, 81%, 56%);
+  --accent-orange: hsl(24, 100%, 58%);
+  --accent-teal: hsl(174, 63%, 50%);
+}
+
+/* Base theme (Dark Green - Default) */
+:root {
+  --color-bg: hsl(140, 15%, 7%);
+  --color-card: hsl(140, 15%, 10%);
+  --color-border: hsl(140, 10%, 18%);
+  --color-accent: var(--accent-dark-green);
+  --color-accent-hover: hsl(142, 76%, 42%);
+  --text-primary: hsl(0, 0%, 96%);
+  --text-secondary: hsl(140, 10%, 75%);
+  --text-muted: hsl(140, 5%, 55%);
+}
+
+/* Dark Blue Theme */
+.theme-blue {
+  --color-bg: hsl(222, 25%, 8%);
+  --color-card: hsl(222, 25%, 11%);
+  --color-border: hsl(222, 18%, 18%);
+  --color-accent: var(--accent-blue);
+  --color-accent-hover: hsl(217, 91%, 66%);
+  --text-primary: hsl(0, 0%, 96%);
+  --text-secondary: hsl(222, 10%, 75%);
+  --text-muted: hsl(222, 5%, 55%);
+}
+
+/* Dark Purple Theme */
+.theme-purple {
+  --color-bg: hsl(276, 22%, 7%);
+  --color-card: hsl(276, 22%, 10%);
+  --color-border: hsl(276, 15%, 18%);
+  --color-accent: var(--accent-purple);
+  --color-accent-hover: hsl(271, 81%, 62%);
+  --text-primary: hsl(0, 0%, 96%);
+  --text-secondary: hsl(276, 10%, 75%);
+  --text-muted: hsl(276, 5%, 55%);
+}
+
+/* Dark Orange Theme */
+.theme-orange {
+  --color-bg: hsl(18, 20%, 7%);
+  --color-card: hsl(18, 20%, 10%);
+  --color-border: hsl(18, 15%, 18%);
+  --color-accent: var(--accent-orange);
+  --color-accent-hover: hsl(24, 100%, 64%);
+  --text-primary: hsl(0, 0%, 96%);
+  --text-secondary: hsl(18, 10%, 75%);
+  --text-muted: hsl(18, 5%, 55%);
+}
+
+/* Dark Teal Theme */
+.theme-teal {
+  --color-bg: hsl(180, 20%, 7%);
+  --color-card: hsl(180, 20%, 10%);
+  --color-border: hsl(180, 15%, 18%);
+  --color-accent: var(--accent-teal);
+  --color-accent-hover: hsl(174, 63%, 56%);
+  --text-primary: hsl(0, 0%, 96%);
+  --text-secondary: hsl(180, 10%, 75%);
+  --text-muted: hsl(180, 5%, 55%);
+}
+
+/* Global Transitions for elements */
+.theme-transition {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom Glassmorphism Utility */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
