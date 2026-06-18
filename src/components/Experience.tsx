@@ -10,11 +10,12 @@ const experienceList = [
         subHeading: "Software Engineer",
         timeline: "Nov 2024 - Present",
         description: [
+            <span>Embedded with an enterprise client, enhancing their AI customer service agent on <strong>Sierra's</strong> platform using both code (<strong>Agent SDK</strong>) and no-code (<strong>Agent Studio</strong>) tooling.</span>,
             <span>Built and maintained full-stack features for a production-ready <strong>AI Agent Builder Platform</strong> using <strong>React.js</strong> and <strong>FastAPI</strong>, enabling internal teams to configure, test, and deploy intelligent voice and chat agents.</span>,
             <span>Designed and implemented <strong>Redis-based session management</strong>, conversation history tracking, and <strong>function-calling integrations</strong> for context-aware, low-latency LLM interactions.</span>,
             <span>Developed and maintained internal <strong>Node.js</strong> web applications used by IBEX call center agents, supporting day-to-day operational workflows.</span>,
             <span>Onboarded legacy internal tools, including service desk bots, onto the AMP platform — standardizing <strong>AI deployment workflows</strong> across enterprise teams.</span>,
-            <span>Collaborated with AI teams on <strong>RAG-based architectures</strong> to connect domain-specific enterprise knowledge bases to agent pipelines.</span>,
+            <span>Collaborated with <strong>AI teams</strong> on <strong>RAG-based architectures</strong> to connect domain-specific enterprise knowledge bases to agent pipelines.</span>,
         ]
     },
     {
