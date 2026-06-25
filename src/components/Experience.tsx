@@ -11,11 +11,12 @@ const experienceList = [
         timeline: "Nov 2024 - Present",
         description: [
             <span>Embedded with an enterprise client, enhancing their AI customer service agent on <strong>Sierra's</strong> platform using both code (<strong>Agent SDK</strong>) and no-code (<strong>Agent Studio</strong>) tooling.</span>,
-            <span>Built and maintained full-stack features for a production-ready <strong>AI Agent Builder Platform</strong> using <strong>React.js</strong> and <strong>FastAPI</strong>, enabling internal teams to configure, test, and deploy intelligent voice and chat agents.</span>,
-            <span>Designed and implemented <strong>Redis-based session management</strong>, conversation history tracking, and <strong>function-calling integrations</strong> for context-aware, low-latency LLM interactions.</span>,
+            <span>Improved the agent's <strong>Identity & Verification (ID&amp;V)</strong> flow by implementing a multi-step fallback system that verified users through plan number and email when phone verification failed, significantly increasing overall verification success rates.</span>,
+            <span>Engineered full-stack features across <strong>React.js</strong> and <strong>FastAPI</strong> as 1 of 5 engineers on IBEX's internally built <strong>AI Agent Builder Platform (AMP)</strong>, enabling teams to configure, test, and deploy production-grade voice and chat agents.</span>,
+            <span>Designed and implemented <strong>Redis-based session management</strong> and conversation history tracking, powering context-aware LLM interactions for agents handling <strong>2,000+ calls per month</strong> with an <strong>84% containment rate</strong>.</span>,
             <span>Developed and maintained internal <strong>Node.js</strong> web applications used by IBEX call center agents, supporting day-to-day operational workflows.</span>,
-            <span>Onboarded legacy internal tools, including service desk bots, onto the AMP platform — standardizing <strong>AI deployment workflows</strong> across enterprise teams.</span>,
-            <span>Collaborated with <strong>AI teams</strong> on <strong>RAG-based architectures</strong> to connect domain-specific enterprise knowledge bases to agent pipelines.</span>,
+            <span>Collaborated with <strong>AI and data teams</strong> to integrate <strong>RAG-based knowledge pipelines</strong> into AMP's agent infrastructure, enabling domain-aware responses across enterprise deployments.</span>,
+            <span>Onboarded legacy internal tools, including service desk bots, onto the AMP platform, standardizing <strong>AI deployment workflows</strong> across enterprise teams.</span>,
         ]
     },
     {
